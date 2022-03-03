@@ -31,7 +31,7 @@ hr{
   border-top-style: dotted;
   border-top-width: 6px;
   /* border: dotted #EAF6F6 6px; */
-  margin: 100px auto;
+  margin: 100px 50%;
 }
 p{
   line-height: 2;
@@ -93,10 +93,16 @@ a:hover{
   float: left;
   margin: 15px 30px 0 0;
 }
-.app_dev-image{
-  width: 25%;
+
+.ice-cream-image {
+  width: 18%;
   float: right;
   margin-left: 30px;
+  position: relative;
+  bottom: 100px;
+}
+.ice-cream-message {
+  text-align: right;
 }
 
 .contact-message{
